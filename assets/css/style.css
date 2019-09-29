@@ -22,7 +22,7 @@ body {
   left: 20px;
   box-sizing: border-box;
   margin: auto;
-  margin-left: 268px;
+  margin-left: 15%;
   padding-top: 25px;
   color: white;
   background: #4aaaa5;
@@ -42,7 +42,7 @@ body {
   font-family: "Georgia", Times, Times New Roman, serif;
   color: gray;
   padding: 37px;
-  margin-right: 255px;
+  margin-right: 15%;
 }
 
 .aboutme {
@@ -156,6 +156,58 @@ a:hover {
     /* Box-model */
     width: 90%;
     padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 110px;
+  }
+
+  .myname {
+    width: 30%;
+    margin-left: 0;
+    /* clear: both; */
+    position: relative;
+    left: 5%;
+  }
+
+  .footer {
+    margin-top: 15px;
+    position: relative;
+  }
+
+  .links {
+    margin-right: 0;
+    width: 30%;
+    /* clear: both; */
+    background-color: white;
+    float: none;
+    text-align: center;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3%;
+    padding-bottom: 0px;
+  }
+
+  .bigtextbox {
+    width: 300px;
+    box-sizing: border-box;
+    clear: both;
+    text-align: left;
+    background-color: white;
+    border: 1px silver solid;
+    width: 95%;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .textbox {
+    width: 300px;
+    box-sizing: border-box;
+    clear: both;
+    background-color: white;
+    border: 1px silver solid;
+    width: 95%;
+    text-align: auto;
   }
 }
 
@@ -163,23 +215,6 @@ a:hover {
 
 /* Width at 768px and below */
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #333;
-  }
-
-  .aboutme {
-    /* Box-model */
-    width: 90%;
-  }
-  .header {
-    width: 100%;
-  }
-}
-
-/* Width at 640px and below */
-@media screen and (max-width: 640px) {
-  /* .header {background-color: none} */
-
   .aboutme {
     /* Box-model */
     width: 90%;
@@ -210,6 +245,67 @@ a:hover {
     position: relative;
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .bigtextbox {
+    width: 300px;
+    box-sizing: border-box;
+    clear: both;
+    text-align: left;
+    background-color: white;
+    border: 1px silver solid;
+    width: 95%;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .textbox {
+    width: 300px;
+    box-sizing: border-box;
+    clear: both;
+    background-color: white;
+    border: 1px silver solid;
+    width: 95%;
+    text-align: auto;
+  }
+}
+
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+  /* .header {background-color: none} */
+
+  .aboutme {
+    /* Box-model */
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 2%;
+  }
+
+  .myname {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    /* clear: both; */
+    position: relative;
+    left: 0;
+  }
+  .footer {
+    margin-top: 15px;
+    position: relative;
+  }
+  .links {
+    margin-right: 0;
+    width: 100%;
+    /* clear: both; */
+    background-color: white;
+    float: none;
+    text-align: center;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 2%;
   }
 
   .bigtextbox {
